@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.br:before {
+    content: "\A" ;
+    white-space: pre ;
+}
+ /*----- フェードイン -----*/
+ .inviewfadeIn {
+	opacity: 0;
+	transition: 2s;
+}
+
+.fadeIn {
+	opacity: 1.0;
+}
+
+/*----- 上へスライド -----*/
+.inviewUp {
+	transform: translate(0, 40px);
+	-webkit-transform: translate(0, 40px);
+	transition: 2s;
+}
+
+.Up {
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+}
+
+/*----- ズームイン -----*/
+.inviewzoomIn {
+	transform: scale(0, 0);
+	-webkit-transform: scale(0, 0);
+	transition: 2s;
+}
+
+.zoomIn {
+	transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+} 
+
+/*----- フェードインしながら上へスライド -----*/
+.inviewfadeInUp {
+	opacity: 0;
+	transform: translate(0, 60px);
+	-webkit-transform: translate(0, 60px);
+	transition: 5s;
+}
+
+.fadeInUp {
+	opacity: 1.0;
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+}
