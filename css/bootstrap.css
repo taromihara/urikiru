@@ -19,9 +19,18 @@
     opacity: 1;
   }
 }
+img {
+  max-width: 100%;
+  height: auto;
+  }
 .container1 img{
   display: block;
   margin: auto;
+}
+.container1 input{
+  display: block;
+  margin: auto;
+  width: 50vw;
 }
  .top-wrapper {
    height: auto;
@@ -84,9 +93,10 @@
 }
 .main-heading img {
   width: 30vw;
+  padding-bottom: 30px;
 }
 .service1 {
-  margin-top: 150px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   vertical-align: top;
@@ -113,9 +123,6 @@
   margin-right: 50px;
   font-size: 1.5vw;
 }
-.service3-about {
-  font-size: 1.5vw;
-}
 .service2-about img {
   width: 9vw;
 }
@@ -124,47 +131,32 @@
 }
 .service3 {
   margin-top: 150px;
-}
-.service3-text {
-  font-size: 1.5vw;
-}
-.service3-margin {
-  display: table;
-  margin: 0 auto;
-  float: left;
+  display: flex;
+  justify-content: center;
+  vertical-align: top;
 }
 .service3-about {
-  text-align: left;
+  margin-right: 50px;
+  font-size: 1.5vw;
 }
 .service3-about img {
+  vertical-align: middle;
   width: 9vw;
+  margin-bottom: 40px;
 }
-.service3-text {
-  text-align: left;
-}
-.service3-photo {
-  text-align: center;
-  margin-top: 150px;
-}
-.service3-photo{
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
+.service3-photo img {
+  width: 40vw;
 }
 .wkwk{
   width: 100vw;
-  
 }
-
 .system1 {
 text-align: center;
 margin-top: 150px;
-margin-right: 50px;
 font-size: 1.5vw;
 }
 .system1-text {
 text-align: center;
-margin-right: 50px;
 font-size: 1.5vw;
 }
 .system1-margin {
@@ -172,25 +164,42 @@ font-size: 1.5vw;
   margin: 0 auto;
 }
 .system1-about {
-  text-align: left;
+  text-align: center;
 }
 .system1-about img {
   width: 30vw;
 }
 .system1-photo {
-  margin-top: 150px;
   text-align: center;
+  margin-top: 150px;
 }
 .g11{
 text-align: center;
 margin-top: 150px;
-margin-right: 50px;
 font-size: 1.5vw;
+}
+.triangle img{
+  width: 10vw;
+  text-align: center;
+}
+.g11 img{
+  
+  margin-bottom: 60px;
+}
+.g11 input{
+  width: 30vw;
+  margin-bottom: 60px;
 }
 .question {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 80px;
+}
+.question img{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  width: 30vw;
 }
 footer {
   background-color: #EA5733;
@@ -243,6 +252,26 @@ footer {
 .faq-qanda5 input{
   width : 100vw;
 }
+.mb-3{
+  width : 50vw;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.col-12{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.col-12 button{
+  width : 200px;
+  height: 50px;
+  background-color: #EA5733;
+  color: #fff;
+  background-color: #EA5733;
+  border-color: #EA5733;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 
 
 
